@@ -1,6 +1,6 @@
 # Sphynx
 ## Accueil
-  *
+  * Fomulaire de contact ( Email, téléphone)
 ## Chatons à vendre
   * nom
   * sexe
@@ -20,10 +20,11 @@
   * concours 
   * texte libre
   * photos/vidéos
+  * leurs chatons
 ## Chatterie
   *
 ## Suivi des chatons
-  * album nom, sexe, concours
+  * album nom, sexe, père, mère (concours)
   * que ce sont-ils devenus
 ## Historique
   * histoire
