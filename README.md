@@ -22,7 +22,8 @@
   * photos/vidéos
   * leurs chatons
 ## Chatterie
-  *
+  * Photos
+  * description
 ## Suivi des chatons
   * album nom, sexe, père, mère (concours)
   * que ce sont-ils devenus
