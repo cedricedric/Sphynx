@@ -23,8 +23,13 @@
 ## Chatterie
   *
 ## Suivi des chatons
-  * Album
-  *
+  * album nom, sexe, concours
+  * que ce sont-ils devenus
 ## Historique
-  * origine
-  * 
+  * histoire
+  * maladies
+  * sevrage
+  * standard
+## Avis
+  * commentaire
+  * note
