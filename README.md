@@ -29,6 +29,9 @@
   ### Suivi des chatons
     * album nom, sexe, père, mère (concours)
     * que ce sont-ils devenus
+  ### Anciens reproducteurs
+    * Les chats 
+  ### Salle de Jeux
 ## Historique
   * histoire
   * maladies
