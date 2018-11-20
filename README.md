@@ -11,6 +11,7 @@
   * disponible/ réservé
   * photos/vidéos
   * parents
+  * Visites d'un vétérinaire hebdomadaire 
 ## Chats reproducteurs
   * nom
   * sexe
@@ -32,9 +33,10 @@
   ### Anciens reproducteurs
     * Les chats 
   ### Salle de Jeux
+    * activité des chatons
 ## Historique
   * histoire
-  * maladies
+  * maladies, préventions
   * sevrage
   * standard
 ## Avis
