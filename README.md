@@ -1,4 +1,7 @@
-# Sphynx
+# Hairlessness/Sphynx
+
+Entreprise familiale dans la vente de chats de race "Sphynx" qui prône le bien être et la santé des animaux avant tout. 
+
 ## Accueil (simple, intuitifs)
   * Fomulaire de contact ( Email, téléphone)
 ## Chatons à vendre
