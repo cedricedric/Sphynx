@@ -1,9 +1,11 @@
 # Hairlessness/Sphynx
 
-Entreprise familiale dans la vente de chats de race "Sphynx" qui prône le bien être et la santé des animaux avant tout. 
+Entreprise familiale dans la vente de chats de race "Sphynx" qui prône le bien être et la santé des animaux avant tout.
+But premier du site " Vente de chatons".
+Design dans le luxe et la sobriété.
 
 ## Accueil (simple, intuitifs)
-  * Fomulaire de contact ( Email, téléphone)
+  * Fomulaire de contact ( Email, téléphone) !!! Pas d'adresse !!! 
 ## Chatons à vendre
   * nom
   * sexe
