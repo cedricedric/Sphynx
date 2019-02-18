@@ -52,8 +52,8 @@ table {
 /*************/
 
 @font-face{
-	font-family: 'worksans';
-	src: url(../fonts/work-sans/WorkSans-Bold.ttf);
+	font-family: 'worksans-regular';
+	src: url(../fonts/work-sans/WorkSans-Regular.ttf);
 }
 
 @font-face{
@@ -110,6 +110,14 @@ a {
  	font-size: 0;
 }
 
+ .main-nav label {
+ 	display: none;
+ }
+
+ #toggle {
+ 	display: none;
+ }
+
 /*************/
 /*   HEADER  */
 /*************/
@@ -120,7 +128,6 @@ header {
 	width: 85.42%;
 	margin: 0 auto;
 	color: #fff;
-	padding-top: 30px;
 }
 
 header h1 {
@@ -187,7 +194,7 @@ header nav {
     left: 28.125%;
     z-index: -3;
     border: 2px solid white;
-    margin-top: 122.6px;
+    margin-top: 150px;
     padding-bottom: 12%;
 }
 
@@ -227,7 +234,7 @@ header nav {
 	font-family: worksans;
 	font-weight: bold;
 	text-transform: uppercase;
-	margin-bottom: 	100px;
+	margin-bottom: 5%;
 
 }
 
@@ -261,6 +268,7 @@ header section h2:after {
 	left: 0.2%;
 	bottom: -20px;
 	background: #fff;
+	
 }
 
 section h2+p {
@@ -271,6 +279,209 @@ section h2+p {
 	line-height: 24px;
 }
 
+header section {
+	overflow: hidden;
+	margin-bottom: 150px;
+}
 
 
 
+/*************/
+/*    MAIN   */
+/*************/
+
+main {
+	background: #F6F6F6;
+	padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+main h2 {
+	position: relative;
+	color: #000;
+	font-family: worksans-regular;
+	font-size: 80px;
+	text-transform: uppercase;
+	margin-left: 7.7%;
+	margin-bottom: 60px;
+}
+
+
+main h2:after {
+	//margin-top: 3px;
+    width: 10%;
+    position: absolute;
+	content: "";
+	display: block;
+	background: #000;
+	height: 2px;
+}
+
+.wrap-content {
+	width: 85.42%;
+	margin: 0 auto;
+}
+
+.wrap-form {
+	display: flex;
+	align-items: center;
+}
+
+main form {
+	flex: 1 1 0;
+	margin-left: 7.7%;
+	width: 35.68575233022636%;
+}
+
+form input{
+	height: 18px;
+	padding-bottom: 15px;
+	border: none;
+	border-bottom: 2px solid #000 ;
+	background: 0;
+	width: calc(100% - 160px);
+	margin-bottom: 60px;
+	padding-left: 160px;
+}
+
+textarea {
+	height: 270px;
+	margin-top: 15px;
+	box-sizing: border-box;
+	background: 0;
+	padding: 0px;
+	width: 100%;
+	border: none;
+	border-right: 2px solid #000;
+	border-left: 2px solid #000;
+	border-bottom: 2px solid #000;
+}
+
+form label {
+	font-size: 18px;
+	font-family: rubik;
+	color: #9BA0AE;
+	text-transform: uppercase;
+	position: absolute;
+}
+
+.form-field-textarea:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 7px;
+	right: 0;
+	left: 160px;
+	bottom: 50%;
+	border-top: 2px solid #000;
+	border-right: 2px solid #000;
+}
+
+.form-field-textarea label {
+	font-size: 18px;
+	font-family: rubik;
+	color: #9BA0AE;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.form-field-textarea {
+	position: relative;
+}
+
+button {
+	//box-sizing: border-box;
+	position: absolute;
+	border: 2px solid #000;
+	bottom: 1px;
+	right: 0;
+	font-family: worksans-regular;
+	color: #9BA0AE;
+	padding: 22px 60px;
+	text-transform: uppercase;
+	background: 0;
+	font-size: 30px;
+
+}
+
+button:hover {
+	color: #fff;
+	background: #000;
+	transition: 0.2s ease-in-out;
+}
+
+
+aside {
+	flex: 1 1 0;
+	//float: right;;
+	//transform: translateY(-50%);
+}
+
+aside dt, aside span {
+	font-family: worksans-regular;
+	color: #9BA0AE;
+	font-size: 25px;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+	margin-top: 60px;
+}
+
+dl {
+	width: 100%;
+}
+
+aside dd {
+	color: #000;
+	font-family: rubik;
+	font-size: 18px;
+	width: 400px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 15px;
+    margin: 0 auto 15px auto;
+}
+
+aside dd a:hover {
+	color: #9BA0AE;
+}
+
+//side dd:after {
+	margin-top: 15px;
+	content: "";
+	display: block;
+	width: 400px;
+	border-bottom: 2px solid #000;
+}
+
+.wrap-contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+aside ul {
+	display: flex;
+}
+
+aside li+li {
+	margin-left: 60px;
+}
+
+aside li a img {
+	background: #fff;
+	color: #000;
+}
+
+aside a {
+	color: #000;
+}
+
+.wrap-contact li{
+	width: 50px;
+	height: 50px;
+}
+
+svg:hover {
+	fill: #9BA0AE;
+
+}
