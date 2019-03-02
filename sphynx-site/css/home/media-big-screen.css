@@ -1,0 +1,22 @@
+.title {
+	font-size: 	150px;
+}
+
+header section h2{
+	font-size: 	30px;
+}
+
+eader section p {
+	max-width: 800px;
+}
+
+.all {
+	max-width: 2000px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.degrade {
+	position:  absolute;
+}
+

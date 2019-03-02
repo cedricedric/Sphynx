@@ -1,0 +1,106 @@
+/***********/
+/*   NAV   */
+/***********/
+
+.main-nav label {
+	display: block;
+	cursor: pointer;
+	position: absolute;
+	right: 20px;
+	font-size: 40px;
+	line-height: 150px;
+}
+
+.wrap-nav {
+	display: block;
+	margin-bottom: 28.5em;
+}
+
+.main-nav {
+
+	//background: #000;
+	position: absolute;
+	//padding-right: 20px;
+	right: 0;
+	top: 0;
+	//border-left: 1px solid #fff;
+	//border-bottom: 1px solid #fff;
+	z-index: 4;
+}
+
+//#toggle {
+	display: none;
+}
+
+#toggle:checked + .menu {
+	display: block;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: #000;
+	border-left: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+
+header .menu {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 100px;
+	display: none;
+}
+
+header ul li {
+	padding-bottom: 10px;
+	border-bottom: 2px solid rgba(182, 188, 206, 0.70);
+	margin-bottom: 40px;
+	transition: 0.2s ease-in-out;
+}
+
+.main-nav li:first-child {
+	border-bottom: 2px solid #fff;
+}
+
+header ul li:hover {
+	transition: 0.2s ease-in-out;
+	border-bottom: 2px solid #fff;
+}
+
+.main-nav li a {
+	border: none;
+}
+
+.main-nav li a:hover{
+	border: none;
+}
+
+header h1 {
+	flex: 5 1 0;
+}
+
+.main-nav {
+
+}
+
+.wrap-form {
+	//display: block;
+}
+
+aside dd {
+	width: 300px;
+}
+
+.titl/e {
+	font-size: 10em;
+}
+
+.d/egrade {
+		 width: 68.9em;
+}
+.c/at {
+	width: 68.4em;
+}

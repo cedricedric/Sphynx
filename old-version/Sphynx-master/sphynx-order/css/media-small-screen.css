@@ -1,0 +1,65 @@
+.cat {
+	display: none;
+}
+
+.wrap-nav {
+	margin-bottom: 60px;
+	padding: 0;
+}
+
+.title {
+	display: none;
+}
+
+header section {
+	margin-bottom: 60px;
+}
+
+header section h2 {
+	font-size: 3rem;
+	margin-left: 0px;
+	margin-bottom: 30px;
+}
+
+header section h2:after {
+	margin-top: 15px;
+	position: initial;
+}
+
+header section h2+p {
+	margin: 0;
+}
+
+.wrap-content h2 {
+	font-size: 3rem;
+	margin-left: 0;
+
+}
+
+.wrap-content h2:after {
+	width: 25%;
+	position: initial;
+	margin-top: 15px;
+}
+
+.wrap-form {
+	display: initial;
+}
+
+.wrap-form form{
+	margin-bottom: 0;
+	width: 100%;
+	margin: 0;
+}
+
+dl~dt{
+	margin-top: 0px;
+}
+
+aside {
+	margin-top: 90px;
+}
+
+aside dd {
+	width: 400px;
+}

@@ -1,0 +1,15 @@
+header section h2 {
+	font-size: 	30px;
+}
+
+header section p {
+	width: 100%;
+}
+
+.wrap-content h2 {
+	font-size: 30px;
+}
+
+aside dd {
+	width: 300px;
+}
